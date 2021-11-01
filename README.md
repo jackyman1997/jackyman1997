@@ -14,3 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+# Gist
+[`.gitignore` Template](https://gist.github.com/jackyman1997/d348d18f0bf42ba659e2b44b78fdedd1)
