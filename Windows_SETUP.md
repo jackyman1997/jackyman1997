@@ -76,5 +76,3 @@ set conda base python as default python interpreter:
     "python.pythonPath": < path to conda python, may look like "/c/Users/<name>/miniconda3/python3.exe" >,
     "python.defaultInterpreterPath": < path to conda python, may look like "/c/Users/<name>/miniconda3/python3.exe" >,
     ```
-
-# MacOS
