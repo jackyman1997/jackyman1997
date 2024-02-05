@@ -76,3 +76,37 @@ set conda base python as default python interpreter:
     "python.pythonPath": < path to conda python, may look like "/c/Users/<name>/miniconda3/python3.exe" >,
     "python.defaultInterpreterPath": < path to conda python, may look like "/c/Users/<name>/miniconda3/python3.exe" >,
     ```
+
+
+## Conda
+Add into `.bash_profile`: 
+```
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+eval "$('/c/Users/<user name>/miniconda3/Scripts/conda.exe' 'shell.bash' 'hook')"
+# <<< conda initialize <<<
+```
+Check if `.condarc`:
+```
+channels:
+  - defaults
+ssl_verify: true
+auto_activate_base: true
+
+```
+
+## bashrc & bash_profile
+Add into `.bashrc`: 
+```
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
+```
+Add into `.bash_profile`: 
+```
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+fi
+```
